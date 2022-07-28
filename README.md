@@ -15,7 +15,7 @@
   * Luuakse lokaalne andmebaas (library.db) koos näidisandmetega (raamatud ja admin kasutaja). Kui andmebaas juba eksisteerib, siis seda toimingut teistkordselt ei teostata.
   * Käivitub Flaski server.
 
-* Käivitada Front-end pool (kaust client):
+* Käivitada Front-end pool (kaust "client"):
 
     $ yarn start
     
