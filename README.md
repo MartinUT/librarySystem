@@ -1,5 +1,5 @@
 ### Nõuded
-* Python 3.9
+* Python 3.10
 * Node.js 18.7.0
 
 ### Seadistamine
