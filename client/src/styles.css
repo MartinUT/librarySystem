@@ -1,0 +1,245 @@
+.mainPage {
+    font-family: 'Brush Script MT', cursive;
+    position: relative;
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    color: #14877c;
+}
+
+.heading {
+    font-family: Helvetica, sans-serif;
+    color: #14877c;
+    border-bottom: 1px solid #14877c;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.header {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.searchField {
+    width: 40%;
+    min-width: 200px;
+    border-radius: 10px;
+    border: 3px solid #14877c;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.tableButton {
+    height: 30px;
+    width: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    user-select: none;
+    font-weight: 600;
+    border-radius: 25px;
+    color: #ffffff;
+    border: 1px solid #14877c;
+    background-color: #14877c;
+    cursor: pointer;
+}
+
+.tableButton:hover {
+    background: #14877c;
+    color: #0acad8;
+}
+
+table {
+    width: 100%;
+    padding: 1em;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #caf0ec;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr {
+    height: 55px;
+}
+
+tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.pagination li {
+    border: 1px solid #14877c;
+    font-size: 15px;
+    margin: 0 1px;
+}
+
+.dialog {
+    background-color: rgb(18, 206, 134);
+    font-size: 500px;
+}
+
+.avatar {
+    cursor: pointer;
+    float: right;
+}
+
+.avatarText {
+    float: right;
+}
+
+.loginFormButton {
+    background-color: #14877c;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: .3em;
+    width: 400px;
+}
+
+.registrationButton {
+    background-color: #14877c;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: .3em;
+    width: 400px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    margin: 2em 0 2em;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    width:85%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.loginInput {
+    display: block;
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    padding: .3em;
+    width: 380px;
+}
+
+.loginPageBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    /* Firefox */
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari and Chrome*/
+    -o-transform: translate(-50%, -50%);
+    /* Opera */
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 470px;
+    border: 2px solid #0e796e;
+    background: #caf0ec;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.addBookInput {
+    border-radius: 10px;
+    border: 3px solid #14877c;
+    margin-right: .6em;
+    padding: .8em;
+    width: 250px;
+}
+
+.addBookInputQuantity {
+    border-radius: 10px;
+    border: 3px solid #14877c;
+    margin-right: .6em;
+    padding: .8em;
+    width: 50px;
+}
+
+.addBookForm {
+    margin-top: 50px;
+}
+
+.addBookFormHeading {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: #14877c;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.newBookConfirmButton {
+    background-color: #14877c;
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 1em;
+    padding: .3em;
+    width: 80px;
+}
+
+.errorMessageNewBook {
+    color: red;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modifyCounter {
+    border-radius: 5px;
+    border: 3px solid #14877c;
+    height: 25px;
+    width: 40px;
+}
+
+.modifyCounterButton {
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+    font-size: 15px;
+    user-select: none;
+    font-weight: 600;
+    border-radius: 25px;
+    color: #ffffff;
+    border: 1px solid #14877c;
+    background-color: #14877c;
+    cursor: pointer;
+    margin-left: .2em;
+}
+
+.overdue {
+    background-color: rgba(203, 224, 15, 0.692);
+}
